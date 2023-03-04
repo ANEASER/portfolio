@@ -2,6 +2,10 @@ import React from 'react';
 import 'bulma/css/bulma.css';
 import '../App.css';
 
+import ML from '../uploads/ML.png';
+import web from '../uploads/web.png';
+import BI from '../uploads/BI.png';
+
 function Sample() {
 
   return (
@@ -10,8 +14,8 @@ function Sample() {
             <div className="main_container mt-1" style={{ margin: '1em 1em 1em 1em' }}>
             <div className="card sub_containers px-2 my-2 mx-2" style={{ width: '30%' }}>
                 <div className="card-image">
-                <figure className="image is-4by3">
-                    <img src="https://bnz06pap004files.storage.live.com/y4mojpem7myF5RPx3oq6xJYOukv7vWnfRLWrq-lvmLa7Oh1_tT2Zr3g8VnNteA4SV0JnQj4ajKZBIEYSL0S9-QNfmlllTnvudhjeCbJ9_ksV4bsuLDzFmQVZ8T25zuaVbSqzubjYmzCDdbMpB3HCmsCeimLHcXEQijilwSkgLXCNLl_RU1LQBV8Dap9XWpUsKfC?width=1279&height=959&cropmode=none" alt="Placeholder image" />
+                <figure className="image is-4by3">s
+                    <img src={ML} alt="Placeholder image" />
                 </figure>
                 </div>
                 <div className="card-content" style={{ background: 'rgb(31, 72, 255, 0.712)' }}>
@@ -32,7 +36,7 @@ function Sample() {
             <div className="card sub_containers px-2 my-2 mx-2" style={{ width: '30%' }}>
                 <div className="card-image">
                     <figure className="image is-4by3">
-                    <img src="https://bnz06pap004files.storage.live.com/y4mXUEDYgQ7i04gI91CynadyOCNYObSBJ9FjYrWtvCA4BqkodJALqp0B1GIBgK7pSF0jdreLUvUtXdcKlSFQkbP8MMyBqvqHCOP1Vh4rFP2-Pcmh8neR8RJhmolEOvko8MeWY8EB0vxsb84rX_cqloUvwaDJ_AA1__x4f7OdCkHM3zMgfdJzf-55TVUHaK514kG?width=1279&height=959&cropmode=none" alt="Placeholder image" />
+                    <img src={web} alt="Placeholder image" />
                     </figure>
                 </div>
                 <div className="card-content" style={{ background: 'rgb(31, 72, 255, 0.712)' }}>
@@ -51,7 +55,7 @@ function Sample() {
                     <div className="card sub_containers px-2 my-2 mx-2" style={{ width: '30%' }}>
                     <div className="card-image">
                         <figure className="image is-4by3">
-                        <img src="https://bnz06pap004files.storage.live.com/y4m9-OyHnaS1Bb1ad6Hja0UAS5MnWk3BQgDd4wI_8YFfxlPPv7ox685r6RQpy9ZkbOjxmIbMhM-Eq7ltgtG86qvJvnU4mvUJXNEZCbXV-Gs1chu8oe_wuolcgfOHLrMOL2_O-RST6cQIiwUMsMJaNPEJ9-FWr9ADaftK_QQ0EEpqBKGTe53hhx8r7wGH9aor_Bl?width=1279&height=959&cropmode=none" alt="Placeholder image" />
+                        <img src={BI} alt="Placeholder image" />
                         </figure>
                     </div>
                     <div className="card-content" style={{ background: 'rgb(31, 72, 255, 0.712)' }}>
